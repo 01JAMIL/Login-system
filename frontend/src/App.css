@@ -1,0 +1,177 @@
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.app .container {
+  width: 60%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 8px 0 8px 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+  margin-bottom: 30px;
+}
+
+.navbar .nabvar-brand {
+  padding: 5px 0 5px 0;
+}
+
+.navbar .navbar-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 5px 0 5px 0;
+  margin: 0 0 0 auto;
+}
+
+.navbar .navbar-links .navbar-link {
+  margin: 0 5px 0 5px;
+}
+
+.navbar .navbar-links .navbar-link a {
+  text-decoration: none;
+  padding: 3px;
+  color: #201E1E;
+}
+
+.navbar .navbar-links .navbar-link a:focus {
+  color: #201E1E;
+}
+
+.navbar .navbar-links .navbar-link a:hover {
+  font-weight: bold;
+}
+
+.navbar .navbar-links .navbar-link .active {
+  font-weight: bold;
+}
+
+.navbar .navbar-links .navbar-link .navbar-btn {
+  padding: 8px;
+  border: none;
+  background-color: #EFC050;
+  border-radius: 3px;
+  color: #201E1E;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.navbar .navbar-links .navbar-link .navbar-btn:hover {
+  background-color: #efbf50c1;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.container-fluid .form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.container-fluid .form .form-group {
+  margin-bottom: 10px;
+}
+
+.container-fluid .form .form-group .form-label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.container-fluid .form .form-group .form-input {
+  width: 250px;
+  height: 28px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.container-fluid .form .form-group .invalid {
+  border: 1px solid #D61C4E;
+}
+
+.container-fluid .form .form-group .invalid:focus {
+  border: 1px solid #D61C4E;
+  outline: 1.3px solid #D61C4E;
+}
+
+.container-fluid .form .form-group .invalid-feedback {
+  color: #D61C4E;
+  padding: 2px 0 0 5px;
+  font-size: 13px;
+  min-height: 10px;
+}
+
+.container-fluid .form .btn {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 16px;
+}
+
+.container-fluid .form .btn-success {
+  background-color: #201E1E;
+  color: white;
+}
+
+.container-fluid .form .btn-success:hover {
+  background-color: #201e1ee2;
+  color: white;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.alert {
+  width: 250px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 5px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+@media screen and (max-width : 792px) {
+  .app .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width : 562px) {
+  .app .container {
+    width: 90%;
+  }
+}
